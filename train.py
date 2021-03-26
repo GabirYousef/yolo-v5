@@ -46,8 +46,8 @@ def train(hyp, opt, device, tb_writer=None):
     # Directories
     wdir = save_dir / 'weights'
     wdir.mkdir(parents=True, exist_ok=True)  # make dir
-    last = wdir / 'last.pt'
-    best = wdir / 'best.pt'
+    last = '/content/drive/MyDrive/Projects/Chechless_product_recognition/yolo5_weights/last.pt'
+    best = '/content/drive/MyDrive/Projects/Chechless_product_recognition/yolo5_weights/best.pt'
     results_file = save_dir / 'results.txt'
 
     # Save run settings
